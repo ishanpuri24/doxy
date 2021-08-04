@@ -1,0 +1,18 @@
+// fix: remove hover cursor from disabled buttons
+button:disabled {
+  cursor: unset;
+
+  :hover {
+    outline: none;
+  }
+}
+
+// fix: bootstrap checkbox alignment
+.form-check-input {
+  position: unset;
+}
+
+// min height for pdf document preview window
+#document_preview {
+  height: 35rem;
+}
